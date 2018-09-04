@@ -1,0 +1,86 @@
+#titleDiv{
+    
+    width: 22%;
+    background-color:salmon;
+    font-size: 250%;
+    padding: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+#InstrDiv{
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 50%;
+    background-color: aqua;
+    font-size: 250%;
+}
+
+#randNumber{
+    height: 100px;
+    width: 200px;
+    background-color: bisque;
+    margin: 1%;
+    color: black;
+}
+#clear{
+    clear: both;
+}
+
+#winsLosses{
+    height: 100px;
+    width: 200px;
+    background-color: cadetblue;
+    margin: 1%;
+    
+}
+
+#img1{
+    height: 70px;
+    width: 70px;
+}
+
+#img2{
+    height: 70px;
+    width: 70px;
+}
+
+#img3{
+    height: 70px;
+    width: 70px;
+}
+
+#img4{
+    height: 70px;
+    width: 70px;
+}
+
+#gems{
+    margin-left: 1%;
+}
+
+#totalScore{
+    height: 20px;
+    width: 200px;
+    background-color: blanchedalmond;
+    margin: 1%;
+}
+#totalNumber{
+    height: 100px;
+    width: 200px;
+    background-color: gold;
+    margin: 1%;
+}
+#randomNumberP{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 35%;
+}
+#randomNumberT{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 35%;
+}
+p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
