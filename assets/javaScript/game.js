@@ -17,6 +17,16 @@ var button1 = Math.floor(Math.random()*11+1);
 var button2 = Math.floor(Math.random()*11+1);
 var button3 = Math.floor(Math.random()*11+1);
 var button4 = Math.floor(Math.random()*11+1);
+var newbutton1 = Math.floor(Math.random()*11+1);
+var newbutton2 = Math.floor(Math.random()*11+1);
+var newbutton3 = Math.floor(Math.random()*11+1);
+var newbutton4 = Math.floor(Math.random()*11+1);
+
+
+
+
+
+
 
 /*console.log(button1);
 console.log(button2);
@@ -26,7 +36,7 @@ console.log(button4);*/
 // making sure every gem has a unique number
 
 if (button1 === button2 || button1 === button3 || button1 == button4) {
-  var newbutton1 = Math.floor(Math.random()*11)+1;
+  newbutton1 = Math.floor(Math.random()*11)+1;
    console.log(button1 + " " + "This is old random number");
    console.log(newbutton1 + " " + "This is new random number");
     
@@ -35,7 +45,7 @@ if (button1 === button2 || button1 === button3 || button1 == button4) {
 }
 
 if (button2 === button1 || button2 === button3 || button2 == button4) {
-   var newbutton2 = Math.floor(Math.random()*11+1);
+   newbutton2 = Math.floor(Math.random()*11+1);
     console.log(button2  + " " + "This is old random number");
     console.log(newbutton2 + " " + "This is new random number");
  } else {
@@ -43,7 +53,7 @@ if (button2 === button1 || button2 === button3 || button2 == button4) {
  }
 
  if (button3 === button1 || button3 === button2 || button3 == button4) {
-   var newbutton3 = Math.floor(Math.random()*11+1);
+   newbutton3 = Math.floor(Math.random()*11+1);
     console.log(button3  + " " + "This is old random number");
     console.log(newbutton3 + " " + "This is new random number");
  } else {
@@ -51,7 +61,7 @@ if (button2 === button1 || button2 === button3 || button2 == button4) {
  }
 
  if (button4 === button1 || button4 === button2 || button4 == button3) {
-    var newbutton4 = Math.floor(Math.random()*11+1);
+    newbutton4 = Math.floor(Math.random()*11+1);
     console.log(button4  + " " + "This is old random number");
     console.log(newbutton4 + " " + "This is new random number");
      
@@ -67,11 +77,33 @@ $('#btn1').on("click", function(){
     if(button1 === button2 || button1 === button3 || button1 == button4){
         
         totalOfNumber = totalOfNumber + newbutton1;
+        console.log(typeof losses);
+console.log(typeof totalOfNumber);
+console.log(typeof randomNumber);
+console.log(typeof button1);
+console.log(typeof button2);
+console.log(typeof button3);
+console.log(typeof button4);
+console.log(typeof newbutton1);
+console.log(typeof newbutton2);
+console.log(typeof newbutton3);
+console.log(typeof newbutton4);
         $('#randomNumberT').text(totalOfNumber);  
         console.log(totalOfNumber);
     }
     else{
         totalOfNumber = totalOfNumber + button1;
+        console.log(typeof losses);
+console.log(typeof totalOfNumber);
+console.log(typeof randomNumber);
+console.log(typeof button1);
+console.log(typeof button2);
+console.log(typeof button3);
+console.log(typeof button4);
+console.log(typeof newbutton1);
+console.log(typeof newbutton2);
+console.log(typeof newbutton3);
+console.log(typeof newbutton4);
         $('#randomNumberT').text(totalOfNumber);  
         console.log(totalOfNumber);
         
@@ -94,11 +126,33 @@ $('#btn1').on("click", function(){
 $('#btn2').on("click", function(){
     if(button2 === button1 || button2 === button3 || button2 == button4){
         totalOfNumber = totalOfNumber + newbutton2;
+        console.log(typeof losses);
+console.log(typeof totalOfNumber);
+console.log(typeof randomNumber);
+console.log(typeof button1);
+console.log(typeof button2);
+console.log(typeof button3);
+console.log(typeof button4);
+console.log(typeof newbutton1);
+console.log(typeof newbutton2);
+console.log(typeof newbutton3);
+console.log(typeof newbutton4);
         $('#randomNumberT').text(totalOfNumber);
         console.log(totalOfNumber);
     }
   else{
     totalOfNumber = totalOfNumber + button2;
+    console.log(typeof losses);
+console.log(typeof totalOfNumber);
+console.log(typeof randomNumber);
+console.log(typeof button1);
+console.log(typeof button2);
+console.log(typeof button3);
+console.log(typeof button4);
+console.log(typeof newbutton1);
+console.log(typeof newbutton2);
+console.log(typeof newbutton3);
+console.log(typeof newbutton4);
     $('#randomNumberT').text(totalOfNumber);  
     console.log(totalOfNumber);
   }
@@ -119,12 +173,35 @@ else if (totalOfNumber > randomNumber) {
 $('#btn3').on("click", function(){
     if(button3 === button1 || button3 === button2 || button3 == button4){
         totalOfNumber = totalOfNumber + newbutton3;
+        console.log(typeof wins);
+console.log(typeof losses);
+console.log(typeof totalOfNumber);
+console.log(typeof randomNumber);
+console.log(typeof button1);
+console.log(typeof button2);
+console.log(typeof button3);
+console.log(typeof button4);
+console.log(typeof newbutton1);
+console.log(typeof newbutton2);
+console.log(typeof newbutton3);
+console.log(typeof newbutton4);
         $('#randomNumberT').text(totalOfNumber);
         console.log(totalOfNumber);
     }
    
     else{
         totalOfNumber = totalOfNumber + button3;
+        console.log(typeof losses);
+console.log(typeof totalOfNumber);
+console.log(typeof randomNumber);
+console.log(typeof button1);
+console.log(typeof button2);
+console.log(typeof button3);
+console.log(typeof button4);
+console.log(typeof newbutton1);
+console.log(typeof newbutton2);
+console.log(typeof newbutton3);
+console.log(typeof newbutton4);
         $('#randomNumberT').text(totalOfNumber);  
         console.log(totalOfNumber);
     }
@@ -146,11 +223,34 @@ $('#btn3').on("click", function(){
 $('#btn4').on("click", function(){
     if(button4 === button1 || button4 === button2 || button4 == button3){
         totalOfNumber = totalOfNumber + newbutton4;
+        console.log(typeof wins);
+        console.log(typeof losses);
+        console.log(typeof totalOfNumber);
+        console.log(typeof randomNumber);
+        console.log(typeof button1);
+        console.log(typeof button2);
+        console.log(typeof button3);
+        console.log(typeof button4);
+        console.log(typeof newbutton1);
+        console.log(typeof newbutton2);
+        console.log(typeof newbutton3);
+        console.log(typeof newbutton4);
         $('#randomNumberT').text(totalOfNumber);
         console.log(totalOfNumber);
     }
     else{
         totalOfNumber = totalOfNumber + button4;
+        console.log(typeof losses);
+console.log(typeof totalOfNumber);
+console.log(typeof randomNumber);
+console.log(typeof button1);
+console.log(typeof button2);
+console.log(typeof button3);
+console.log(typeof button4);
+console.log(typeof newbutton1);
+console.log(typeof newbutton2);
+console.log(typeof newbutton3);
+console.log(typeof newbutton4);
         $('#randomNumberT').text(totalOfNumber);  
         console.log(totalOfNumber);
     }
