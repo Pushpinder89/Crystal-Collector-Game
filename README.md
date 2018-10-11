@@ -1,4 +1,3 @@
-
 Crystal Collector 
 
 The player will guess numbers in the stones. 
