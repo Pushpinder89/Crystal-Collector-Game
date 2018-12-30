@@ -11,23 +11,25 @@ background-position: center;
     color: white;
     font-size: 250%;
     padding: 1%;
-    margin-left: 37%;
+    margin-left: 38%;
     margin-top: 1%;
 }
 #InstrDiv{
-    margin-left: 25%;
+    margin-left: 24%;
     margin-top: 1%;
     width: 50%;
     background-color: lightgreen;
-    color: white;
+    color:purple;
     font-size: 250%;
+    padding: 1%;
+ text-align: left;
 }
 
 #randNumber{
     height: 100px;
     width: 200px;
     background-color: bisque;
-    margin-left: 42%;
+    margin-left: 43%;
     color: black;
 }
 #clear{
@@ -39,7 +41,7 @@ background-position: center;
     width: 200px;
     background-color: blueviolet;
     color: white;
-    margin-left: 42%;
+    margin-left: 43%;
     margin-top: 1%;
     margin-bottom: 1%;
     
@@ -65,21 +67,21 @@ background-position: center;
     width: 70px;
 }
 
-#gems{
-    margin-left: 1%;
-}
+/* #gems{
+    margin-left: 0%;
+} */
 
 #totalScore{
     height: 20px;
     width: 200px;
     background-color: blanchedalmond;
-    margin-left:42%;
+    margin-left:43%;
 }
 #totalNumber{
     height: 100px;
     width: 200px;
     background-color: gold;
-    margin-left:42%;
+    margin-left:43%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -102,3 +104,24 @@ p{
    
     text-align: center;
 }
+
+@media only screen and (max-width: 1200px) {
+    #titleDiv{
+        margin-top: 2%;
+        font-size: 30px;
+        width: 55%;
+        height: 30%;
+        margin-left: 21%;
+    }
+    #InstrDiv{
+        width: 57%;
+        margin-left: 20%;
+        padding-right: 2%;
+    }
+    #totalScore, #randNumber,#totalNumber,  #winsLosses {
+        width: 55%;
+        margin-left: 23%;
+        
+    }
+  }
+
